@@ -1,0 +1,6 @@
+
+ext {
+    rxJava2_version= "2.2.21"
+
+    rxJava2 = "io.reactivex.rxjava3:rxjava:$rxJava2_version"
+}
