@@ -1,7 +1,13 @@
 ext {
     rxJava2_version = "2.2.21"
     timber_version = "4.7.1"
+    nav_version = "2.3.3"
+
 
     rxJava2 = "io.reactivex.rxjava2:rxjava:$rxJava2_version"
     timber = "com.jakewharton.timber:timber:$timber_version"
+
+    // Kotlin
+    nav_fragment_ktx = "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    nav_ui_ktx = "androidx.navigation:navigation-ui-ktx:$nav_version"
 }

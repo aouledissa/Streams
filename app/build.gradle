@@ -45,4 +45,6 @@ dependencies {
 
     implementation(rxJava2)
     implementation(timber)
+    implementation(nav_fragment_ktx)
+    implementation(nav_ui_ktx)
 }
