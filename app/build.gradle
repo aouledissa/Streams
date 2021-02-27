@@ -49,14 +49,9 @@ dependencies {
     testImplementation jUnit
     androidTestImplementation jUnitExt
 
-    implementation rxJava2
-    implementation timber
     implementation navigationComponent
     implementation navigationComponentUi
 
-    implementation koinCore
-    testImplementation koinTest
-    implementation koinAndroid
-    implementation koinViewModel
-    implementation koinFragment
+    implementation androidViewModel
+    implementation livedata
 }

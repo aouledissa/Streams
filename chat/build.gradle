@@ -35,6 +35,9 @@ android {
 
 dependencies {
 
+    implementation project(":common")
+    api project(":data")
+
     implementation kotlinStdlib
     implementation androidxCoreKtx
     implementation androidxAppcompat
@@ -42,4 +45,7 @@ dependencies {
     implementation constrainLayout
     testImplementation jUnit
     androidTestImplementation jUnitExt
+
+    api rxAndroid
+    implementation androidViewModel
 }
