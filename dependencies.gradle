@@ -21,4 +21,12 @@ ext {
     // Kotlin
     navigationComponent = "androidx.navigation:navigation-fragment-ktx:$nav_version"
     navigationComponentUi = "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    // Koin
+    koinCore = "org.koin:koin-core:$koin_version"
+    koinTest = "org.koin:koin-test:$koin_version"
+    koinAndroid = "org.koin:koin-android:$koin_version"
+    koinViewModel = "org.koin:koin-androidx-viewmodel:$koin_version"
+    koinFragment = "org.koin:koin-androidx-fragment:$koin_version"
+
 }
